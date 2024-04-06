@@ -1,0 +1,29 @@
+.home{
+    background-color: rgb(100, 110, 131);
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    top: -3%;
+    min-height: 91vh;
+}
+
+.home-container-data{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.home-container-books{
+    padding: 14px 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.home-container-books:hover{
+    /* padding: 10px 20px; */
+    cursor: pointer;
+}
